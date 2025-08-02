@@ -1,6 +1,6 @@
 #include "../extern/raylib/raylib.h"
 #include "../extern/tinycthread/tinycthread.h"
-
+#include "renderer.h"
 
 
 static thrd_t rendthread;
