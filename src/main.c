@@ -7,7 +7,7 @@
 
 int main(int argc, char* argv[]){
     BeginTheLuaSubsystem();
-
+    
     InterpretLuaScript("tests/test1.lua");
 
     EndTheLuaSubsystem();
