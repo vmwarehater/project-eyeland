@@ -4,10 +4,9 @@ set_xmakever("2.6.0")
 
 set_languages("c99")
 
-target("server")
+target("client")
     set_kind("binary")  
     add_files("src/*.c")
-    set_filename("client.exe")
     set_targetdir(".")
     add_files("src/**/*.c") 
     add_includedirs("src") 
