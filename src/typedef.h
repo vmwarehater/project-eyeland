@@ -55,7 +55,9 @@ typedef size_t SIZE_T;
 
 typedef enum _STATUS {
     SUCCESS,
-    FAILED_TO_INIT_LUA
+    FAILED_TO_INIT_LUA,
+    FAILED_TO_LOAD_FILE,
+    FAILED_TO_INTERPRET_FILE
 } STATUS;
 
 

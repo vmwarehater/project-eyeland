@@ -7,6 +7,8 @@ set_languages("c99")
 target("server")
     set_kind("binary")  
     add_files("src/*.c")
+    set_filename("client.exe")
+    set_targetdir(".")
     add_files("src/**/*.c") 
     add_includedirs("src") 
 

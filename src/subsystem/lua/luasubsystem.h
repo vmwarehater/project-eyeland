@@ -11,10 +11,11 @@
 
 
 
+STATUS BeginTheLuaSubsystem();
+STATUS EndTheLuaSubsystem();
+STATUS InterpretLuaScript(const PCHAR filename);
 
-
-
-
+int poo(const char* poo);
 
 
 
